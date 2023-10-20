@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+           <div class="icon">
+            <h2 class="logo">EduNet</h2>
+           </div>
+
+           <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">DESIGN</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+           </div>
+           
+           <div class="search">
+            <input  class="srch" type="search" name="" placeholder="Search for courses...">
+            <a href="#"><button class="btn">search</button></a>
+           </div>
+
+           </div>
+           <div class="content">
+            <h1>Web Design &<br><span>Development</span><br>Course</h1>
+            <p class="par">Education is super important. It helps us learn new things, <br> grow our skills, and chase our dreams. 
+            Plus,<br>it opens up so many opportunities in life. The importance <br> of websites for educational institutions is
+             constantly increasing, <br> as they become a decision support for future students in selecting
+            <br> their place of study. Such websites should be versatile and secure. <br> As the website is a reflection 
+            of the professional image of the establishment, <br> its clean design should encourage the visitor to stick 
+            around and explore more.</p>
+
+            <button class="cn"><a href="#">JOIN US</a></button>
+         </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <!-- ... (your existing navbar HTML) ... -->
+        </div>
+        <div class="content">
+            <!-- ... (your existing content HTML) ... -->
+        </div>
+        <div class="form">
+            <h2>REGISTER HERE</h2>
+            <form id="registrationForm" onsubmit="return validateForm()">
+                <input type="text" name="username" placeholder="Username">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <input type="password" name="confirmPassword" placeholder="Confirm Password">
+                <button class="btnn" type="submit">Register</button>
+            </form>
+            
+        </div>
+    </div>
+    <section>
+        <script>
+            // Function to validate the registration form
+            function validateForm() {
+                var username = document.forms["registrationForm"]["username"].value;
+                var email = document.forms["registrationForm"]["email"].value;
+                var password = document.forms["registrationForm"]["password"].value;
+                var confirmPassword = document.forms["registrationForm"]["confirmPassword"].value;
+        
+                if (username === "") {
+                    alert("Username must be filled out");
+                    return false;
+                }
+        
+                if (email === "") {
+                    alert("Email must be filled out");
+                    return false;
+                }
+        
+                var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+                if (!email.match(emailPattern)) {
+                    alert("Please enter a valid email address");
+                    return false;
+                }
+        
+                if (password === "") {
+                    alert("Password must be filled out");
+                    return false;
+                }
+        
+                if (password.length < 6) {
+                    alert("Password must be at least 6 characters long");
+                    return false;
+                }
+        
+                if (password !== confirmPassword) {
+                    alert("Passwords do not match");
+                    return false;
+                    
+                }
+            }
+        </script>
+        </html>
+        </bady>
+    </section>
+</body>
